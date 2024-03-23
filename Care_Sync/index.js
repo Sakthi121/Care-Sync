@@ -17,7 +17,7 @@ require('dotenv').config();
 const fast2sms = require('fast-two-sms');
 const http=require('http');
 const speakeasy = require('speakeasy');
-
+//demo
 
 mongoose.connect("mongodb://127.0.0.1:27017/ihealth?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.8.0", {useNewUrlParser:true,useUnifiedTopology:true},).then(()=>console.log("connected successfully")).catch((err)=>{console.log(err);});
 
